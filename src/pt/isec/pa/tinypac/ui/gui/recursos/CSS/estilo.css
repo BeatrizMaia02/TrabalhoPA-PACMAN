@@ -1,0 +1,188 @@
+#btnStart, #btnTop5, #btnCredits, #btnExit {
+    -fx-font-size: 20px;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+    -fx-text-fill: white;
+    -fx-border-color: #171717;
+    -fx-border-width: 2px;
+    -fx-min-width: 210px;
+    -fx-min-height: 60px;
+    -fx-max-width: 210px;
+    -fx-max-height: 60px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+
+#btnStart {
+    -fx-background-color: #fdd945;
+}
+
+#btnTop5 {
+    -fx-background-color: #70c9db;
+}
+
+#btnCredits {
+    -fx-background-color: #f06eaa;
+}
+
+#btnExit {
+    -fx-background-color: #ff3d38;
+}
+#tituloPacman{
+    -fx-text-fill: #ffdc2e;
+    -fx-text-stroke: #000000;
+    -fx-text-stroke-width: 1px;
+    -fx-background-color: #000000;
+    -fx-background-radius: 20;
+    -fx-border-radius: 30px;
+    -fx-padding: 10 10;
+
+}
+
+#backButton {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 5px 10px;
+}
+
+#tituloCreditos{
+    -fx-text-fill: #fddb2e;
+}
+
+#textoCreditos{
+    -fx-font-size: 15px;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-border-color: red;
+    -fx-background-color: #000;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+
+#pontosLabel {
+    -fx-font-family: 'Courier New', monospace;
+    -fx-font-size: 20px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 5px; /* Adiciona um espaçamento interno */
+    -fx-background-color: #f06eaa; /* Define uma cor de fundo */
+    -fx-background-radius: 10px; /* Arredonda as bordas do fundo */
+    -fx-alignment: center;
+}
+
+
+#PauseBotao {
+    -fx-font-size: 20px;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+    -fx-background-color: black;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 5px 10px;
+}
+
+#pauseMenu {
+    -fx-background-color: rgba(0, 0, 0, 0.8); /* background preto semi-transparente */
+    -fx-padding: 20px;
+    -fx-spacing: 10px; /* espaço entre os botões */
+    -fx-alignment: center;
+}
+
+.pauseMenuButton {
+    -fx-font-size: 20px;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+    -fx-background-color: black;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 5px 10px;
+}
+
+#top5Table {
+    -fx-padding: 20px;
+}
+
+.header-label {
+    -fx-font-size: 25px;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+}
+
+.data-label {
+    -fx-font-size: 18px;
+    -fx-font-family: "Courier New";
+    -fx-text-fill: white;
+}
+
+#top5Table .header-label {
+    -fx-background-color: black;
+    -fx-padding: 5px 10px;
+}
+
+#top5Table .data-label {
+    -fx-padding: 5px 10px;
+}
+
+#top5Table .data-label:first-child {
+    -fx-background-color: #FFCC00;
+}
+
+#top5Table .data-label {
+    -fx-background-color: #014fa1;
+    -fx-border-color: #000000; /* Cor da borda */
+    -fx-border-width: 1px; /* Largura da borda */
+    -fx-border-radius: 5px; /* Raio da borda */
+    -fx-background-radius: 5px; /* Raio do fundo */
+}
+
+.table-view {
+    -fx-background-color: #000000;
+    -fx-border-color: #F8E71C;
+    -fx-border-width: 3px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #F8E71C;
+}
+
+.table-view .column-header,
+.table-view .table-cell {
+    -fx-font-family: "PAC-FONT";
+    -fx-font-size: 18px;
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header {
+    -fx-text-fill: #000000;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #F8E71C;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #000000;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #111111;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #dc6bd7;
+}
+
